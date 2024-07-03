@@ -7,7 +7,7 @@ namespace BankEncapsulation
 
 		public void Deposit(double myBalance)
 		{
-			balance = myBalance; 
+			balance += myBalance; 
 		}
 
 		public string GetBalance()
